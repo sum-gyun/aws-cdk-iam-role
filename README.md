@@ -26,6 +26,7 @@ npx cdk deploy
 
 ```bash
 npx cdk destroy
+```
 
 ## Useful commands
 
