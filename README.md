@@ -17,7 +17,7 @@ Resources:
                   - ""
                   - - "arn:"
                     - Ref: AWS::Partition
-                    - :iam::157180854577:root
+                    - :iam::{ACCOUNT_ID}:root
           - Action: sts:AssumeRole
             Effect: Allow
             Principal:
